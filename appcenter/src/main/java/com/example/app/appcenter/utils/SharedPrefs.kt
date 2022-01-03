@@ -6,12 +6,12 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.annotation.NonNull
 
-const val PrefsFileName = "app_center_shared_prefs"
+internal const val PrefsFileName = "app_center_shared_prefs"
 
 /**
  * Extension method for get SharedPreferences
  */
-inline val Context.getPrefs: SharedPreferences
+internal inline val Context.getPrefs: SharedPreferences
     get() = this.getSharedPreferences(
         PrefsFileName,
         Context.MODE_PRIVATE
@@ -22,14 +22,14 @@ inline val Context.getPrefs: SharedPreferences
  *
  * @param fKey SharedPreferences Key witch you want to check
  */
-fun Context.contain(@NonNull fKey: String): Boolean {
+internal fun Context.contain(@NonNull fKey: String): Boolean {
     return this.getPrefs.contains(fKey)
 }
 
 /**
  * Extension method for clear SharedPreferences object
  */
-fun Context.clearPrefs() {
+internal fun Context.clearPrefs() {
     this.getPrefs.edit().clear().apply()
 }
 
@@ -38,7 +38,7 @@ fun Context.clearPrefs() {
  *
  * @param fKey SharedPreferences Key witch you want to remove
  */
-fun Context.removeKey(@NonNull fKey: String) {
+internal fun Context.removeKey(@NonNull fKey: String) {
     this.getPrefs.edit().remove(fKey).apply()
 }
 
@@ -48,7 +48,7 @@ fun Context.removeKey(@NonNull fKey: String) {
  * @param fKey SharedPreferences Key
  * @param fValue Boolean Value
  */
-fun Context.save(@NonNull fKey: String, @NonNull fValue: Boolean) {
+internal fun Context.save(@NonNull fKey: String, @NonNull fValue: Boolean) {
     this.getPrefs.edit().putBoolean(fKey, fValue).apply()
 }
 
@@ -59,7 +59,7 @@ fun Context.save(@NonNull fKey: String, @NonNull fValue: Boolean) {
  * @param fKey SharedPreferences Key
  * @param fDefaultValue your pre-defined default value
  */
-fun Context.getBoolean(@NonNull fKey: String, fDefaultValue: Boolean = false): Boolean {
+internal fun Context.getBoolean(@NonNull fKey: String, fDefaultValue: Boolean = false): Boolean {
     return this.getPrefs.getBoolean(fKey, fDefaultValue)
 }
 
@@ -69,7 +69,7 @@ fun Context.getBoolean(@NonNull fKey: String, fDefaultValue: Boolean = false): B
  * @param fKey SharedPreferences Key
  * @param fValue String Value
  */
-fun Context.save(@NonNull fKey: String, @NonNull fValue: String) {
+internal fun Context.save(@NonNull fKey: String, @NonNull fValue: String) {
     this.getPrefs.edit().putString(fKey, fValue).apply()
 }
 
@@ -80,7 +80,7 @@ fun Context.save(@NonNull fKey: String, @NonNull fValue: String) {
  * @param fKey SharedPreferences Key
  * @param fDefaultValue your pre-defined default value
  */
-fun Context.getString(@NonNull fKey: String, fDefaultValue: String = ""): String {
+internal fun Context.getString(@NonNull fKey: String, fDefaultValue: String = ""): String {
     return this.getPrefs.getString(fKey, fDefaultValue) ?: fDefaultValue
 }
 
@@ -90,7 +90,7 @@ fun Context.getString(@NonNull fKey: String, fDefaultValue: String = ""): String
  * @param fKey SharedPreferences Key
  * @param fValue Int Value
  */
-fun Context.save(@NonNull fKey: String, @NonNull fValue: Int) {
+internal fun Context.save(@NonNull fKey: String, @NonNull fValue: Int) {
     this.getPrefs.edit().putInt(fKey, fValue).apply()
 }
 
@@ -101,7 +101,7 @@ fun Context.save(@NonNull fKey: String, @NonNull fValue: Int) {
  * @param fKey SharedPreferences Key
  * @param fDefaultValue your pre-defined default value
  */
-fun Context.getInt(@NonNull fKey: String, fDefaultValue: Int = 0): Int {
+internal fun Context.getInt(@NonNull fKey: String, fDefaultValue: Int = 0): Int {
     return this.getPrefs.getInt(fKey, fDefaultValue)
 }
 
@@ -111,7 +111,7 @@ fun Context.getInt(@NonNull fKey: String, fDefaultValue: Int = 0): Int {
  * @param fKey SharedPreferences Key
  * @param fValue Float Value
  */
-fun Context.save(@NonNull fKey: String, @NonNull fValue: Float) {
+internal fun Context.save(@NonNull fKey: String, @NonNull fValue: Float) {
     this.getPrefs.edit().putFloat(fKey, fValue).apply()
 }
 
@@ -122,7 +122,7 @@ fun Context.save(@NonNull fKey: String, @NonNull fValue: Float) {
  * @param fKey SharedPreferences Key
  * @param fDefaultValue your pre-defined default value
  */
-fun Context.getFloat(@NonNull fKey: String, fDefaultValue: Float = 0f): Float {
+internal fun Context.getFloat(@NonNull fKey: String, fDefaultValue: Float = 0f): Float {
     return this.getPrefs.getFloat(fKey, fDefaultValue)
 }
 
@@ -132,7 +132,7 @@ fun Context.getFloat(@NonNull fKey: String, fDefaultValue: Float = 0f): Float {
  * @param fKey SharedPreferences Key
  * @param fValue Long Value
  */
-fun Context.save(@NonNull fKey: String, @NonNull fValue: Long) {
+internal fun Context.save(@NonNull fKey: String, @NonNull fValue: Long) {
     this.getPrefs.edit().putLong(fKey, fValue).apply()
 }
 
@@ -143,6 +143,6 @@ fun Context.save(@NonNull fKey: String, @NonNull fValue: Long) {
  * @param fKey SharedPreferences Key
  * @param fDefaultValue your pre-defined default value
  */
-fun Context.getLong(@NonNull fKey: String, fDefaultValue: Long = 0): Long {
+internal fun Context.getLong(@NonNull fKey: String, fDefaultValue: Long = 0): Long {
     return this.getPrefs.getLong(fKey, fDefaultValue)
 }

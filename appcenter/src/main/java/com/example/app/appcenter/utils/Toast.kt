@@ -9,7 +9,7 @@ import android.widget.Toast
  * @date 07-11-2019
  */
 @Suppress("unused")
-object Toast {
+internal object Toast {
 
     fun short(mContext: Context, msg: String) {
         Toast.makeText(mContext, msg, Toast.LENGTH_SHORT).show()
