@@ -56,6 +56,9 @@ Android Ads code that is required in every app of Vasundhara Infotech [Vasundhar
 	text_gravity = "LEFT || CENTER || RIGHT"
 	title_text = "YOUR_VIEW_TITLE_TEXT" // Optional
 
+#### More-Apps View
+<img src="https://github.com/vickypathak123/Android-More-Apps/blob/master/screenshots/1.png" height="auto" width="600"/>
+
 ### ⭐️ If you liked it support me with your stars!
 
 ## Developed By
