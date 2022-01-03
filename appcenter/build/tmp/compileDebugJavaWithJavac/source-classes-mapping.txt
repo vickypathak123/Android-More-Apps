@@ -1,0 +1,235 @@
+com/example/app/appcenter/autoimageslider/Transformations/HorizontalFlipTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.HorizontalFlipTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/FillAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.FillAnimation
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.FillAnimation$1
+com/example/app/appcenter/widgets/roundedimageview/Corner.java
+ com.example.app.appcenter.widgets.roundedimageview.Corner
+com/example/app/appcenter/autoimageslider/Transformations/FadeTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.FadeTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/type/ColorAnimationValue.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.type.ColorAnimationValue
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/type/FillAnimationValue.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.type.FillAnimationValue
+com/example/app/appcenter/autoimageslider/Transformations/GateTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.GateTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/ScaleDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.ScaleDrawer
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/ColorDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.ColorDrawer
+com/example/app/appcenter/autoimageslider/Transformations/CubeInDepthTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.CubeInDepthTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/type/DropAnimationValue.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.type.DropAnimationValue
+com/example/app/appcenter/autoimageslider/Transformations/DepthTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.DepthTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/utils/CoordinatesUtils.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.utils.CoordinatesUtils
+com/example/app/appcenter/autoimageslider/IndicatorAnimations.java
+ com.example.app.appcenter.autoimageslider.IndicatorAnimations
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/data/PositionSavedState.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.data.PositionSavedState
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.data.PositionSavedState$1
+com/example/app/appcenter/widgets/RatingBar.java
+ com.example.app.appcenter.widgets.RatingBar
+ com.example.app.appcenter.widgets.RatingBar$RatingBarListener
+com/example/app/appcenter/autoimageslider/IndicatorView/utils/DensityUtils.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.utils.DensityUtils
+com/example/app/appcenter/widgets/roundedimageview/RoundedImageView.java
+ com.example.app.appcenter.widgets.roundedimageview.RoundedImageView
+ com.example.app.appcenter.widgets.roundedimageview.RoundedImageView$1
+com/example/app/appcenter/autoimageslider/SliderView.java
+ com.example.app.appcenter.autoimageslider.SliderView
+ com.example.app.appcenter.autoimageslider.SliderView$1
+ com.example.app.appcenter.autoimageslider.SliderView$OnSliderPageListener
+com/example/app/appcenter/autoimageslider/IndicatorView/PageIndicatorView.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.PageIndicatorView
+ com.example.app.appcenter.autoimageslider.IndicatorView.PageIndicatorView$1
+ com.example.app.appcenter.autoimageslider.IndicatorView.PageIndicatorView$2
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/DropAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.DropAnimation
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.DropAnimation$1
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.DropAnimation$2
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.DropAnimation$AnimationType
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/ThinWormAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.ThinWormAnimation
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.ThinWormAnimation$1
+com/example/app/appcenter/autoimageslider/IndicatorView/IndicatorManager.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.IndicatorManager
+ com.example.app.appcenter.autoimageslider.IndicatorView.IndicatorManager$Listener
+com/example/app/appcenter/databinding/ActivityMoreAppsBinding.java
+ com.example.app.appcenter.databinding.ActivityMoreAppsBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/Drawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.Drawer
+com/example/app/appcenter/autoimageslider/SliderAnimations.java
+ com.example.app.appcenter.autoimageslider.SliderAnimations
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/ScaleDownAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.ScaleDownAnimation
+com/example/app/appcenter/databinding/ListItemBackAppsBinding.java
+ com.example.app.appcenter.databinding.ListItemBackAppsBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/controller/MeasureController.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.controller.MeasureController
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/AnimationManager.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.AnimationManager
+com/example/app/appcenter/autoimageslider/Transformations/TossTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.TossTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/data/Orientation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.data.Orientation
+com/example/app/appcenter/BuildConfig.java
+ com.example.app.appcenter.BuildConfig
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/SlideDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.SlideDrawer
+com/example/app/appcenter/databinding/LayoutTopsMoreAppsBinding.java
+ com.example.app.appcenter.databinding.LayoutTopsMoreAppsBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/DrawManager.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.DrawManager
+com/example/app/appcenter/autoimageslider/Transformations/CubeOutScalingTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.CubeOutScalingTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/ScaleAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.ScaleAnimation
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.ScaleAnimation$1
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/DropDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.DropDrawer
+com/example/app/appcenter/autoimageslider/Transformations/PopTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.PopTransformation
+com/example/app/appcenter/autoimageslider/Transformations/CubeInRotationTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.CubeInRotationTransformation
+com/example/app/appcenter/databinding/LayoutNoInternetBinding.java
+ com.example.app.appcenter.databinding.LayoutNoInternetBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/WormDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.WormDrawer
+com/example/app/appcenter/autoimageslider/SliderPager.java
+ com.example.app.appcenter.autoimageslider.SliderPager
+ com.example.app.appcenter.autoimageslider.SliderPager$1
+ com.example.app.appcenter.autoimageslider.SliderPager$2
+ com.example.app.appcenter.autoimageslider.SliderPager$3
+ com.example.app.appcenter.autoimageslider.SliderPager$4
+ com.example.app.appcenter.autoimageslider.SliderPager$DecorView
+ com.example.app.appcenter.autoimageslider.SliderPager$ItemInfo
+ com.example.app.appcenter.autoimageslider.SliderPager$LayoutParams
+ com.example.app.appcenter.autoimageslider.SliderPager$MyAccessibilityDelegate
+ com.example.app.appcenter.autoimageslider.SliderPager$OnAdapterChangeListener
+ com.example.app.appcenter.autoimageslider.SliderPager$OnPageChangeListener
+ com.example.app.appcenter.autoimageslider.SliderPager$OwnScroller
+ com.example.app.appcenter.autoimageslider.SliderPager$PageTransformer
+ com.example.app.appcenter.autoimageslider.SliderPager$PagerObserver
+ com.example.app.appcenter.autoimageslider.SliderPager$SavedState
+ com.example.app.appcenter.autoimageslider.SliderPager$SavedState$1
+ com.example.app.appcenter.autoimageslider.SliderPager$SimpleOnPageChangeListener
+ com.example.app.appcenter.autoimageslider.SliderPager$ViewPositionComparator
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/BaseAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.BaseAnimation
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/type/ThinWormAnimationValue.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.type.ThinWormAnimationValue
+com/example/app/appcenter/databinding/SliderViewBinding.java
+ com.example.app.appcenter.databinding.SliderViewBinding
+com/example/app/appcenter/autoimageslider/Transformations/Clock_SpinTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.Clock_SpinTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/FillDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.FillDrawer
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/SlideAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.SlideAnimation
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.SlideAnimation$1
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/ScaleDownDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.ScaleDownDrawer
+com/example/app/appcenter/widgets/roundedimageview/RoundedDrawable.java
+ com.example.app.appcenter.widgets.roundedimageview.RoundedDrawable
+ com.example.app.appcenter.widgets.roundedimageview.RoundedDrawable$1
+com/example/app/appcenter/autoimageslider/Transformations/VerticalShutTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.VerticalShutTransformation
+com/example/app/appcenter/databinding/LayoutProgressBinding.java
+ com.example.app.appcenter.databinding.LayoutProgressBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/type/SlideAnimationValue.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.type.SlideAnimationValue
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/controller/ValueController.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.controller.ValueController
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.controller.ValueController$UpdateListener
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/Value.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.Value
+com/example/app/appcenter/databinding/ListItemTopSliderBinding.java
+ com.example.app.appcenter.databinding.ListItemTopSliderBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/ThinWormDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.ThinWormDrawer
+com/example/app/appcenter/databinding/SliderCardViewBinding.java
+ com.example.app.appcenter.databinding.SliderCardViewBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/BasicDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.BasicDrawer
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/BaseDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.BaseDrawer
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/type/WormAnimationValue.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.type.WormAnimationValue
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/SwapAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.SwapAnimation
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.SwapAnimation$1
+com/example/app/appcenter/databinding/FragmentHomeBinding.java
+ com.example.app.appcenter.databinding.FragmentHomeBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/type/ScaleAnimationValue.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.type.ScaleAnimationValue
+com/example/app/appcenter/autoimageslider/Transformations/AntiClockSpinTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.AntiClockSpinTransformation
+com/example/app/appcenter/autoimageslider/SliderViewAdapter.java
+ com.example.app.appcenter.autoimageslider.SliderViewAdapter
+ com.example.app.appcenter.autoimageslider.SliderViewAdapter$DataSetListener
+ com.example.app.appcenter.autoimageslider.SliderViewAdapter$ViewHolder
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/data/Indicator.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.data.Indicator
+com/example/app/appcenter/autoimageslider/Transformations/CubeOutRotationTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.CubeOutRotationTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/ColorAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.ColorAnimation
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.ColorAnimation$1
+com/example/app/appcenter/autoimageslider/Transformations/ZoomOutTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.ZoomOutTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/drawer/type/SwapDrawer.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.drawer.type.SwapDrawer
+com/example/app/appcenter/autoimageslider/IndicatorView/utils/IdUtils.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.utils.IdUtils
+com/example/app/appcenter/autoimageslider/Transformations/FanTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.FanTransformation
+com/example/app/appcenter/databinding/ListItmeTopThreeAppsBinding.java
+ com.example.app.appcenter.databinding.ListItmeTopThreeAppsBinding
+com/example/app/appcenter/autoimageslider/Transformations/SimpleTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.SimpleTransformation
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/controller/AttributeController.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.controller.AttributeController
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/WormAnimation.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.WormAnimation
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.WormAnimation$1
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.WormAnimation$RectValues
+com/example/app/appcenter/autoimageslider/InfiniteAdapter/InfinitePagerAdapter.java
+ com.example.app.appcenter.autoimageslider.InfiniteAdapter.InfinitePagerAdapter
+com/example/app/appcenter/autoimageslider/Transformations/CubeInScalingTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.CubeInScalingTransformation
+com/example/app/appcenter/databinding/ListItemOtherAppsBinding.java
+ com.example.app.appcenter.databinding.ListItemOtherAppsBinding
+com/example/app/appcenter/databinding/FragmentMoreAppBinding.java
+ com.example.app.appcenter.databinding.FragmentMoreAppBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/data/type/SwapAnimationValue.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.data.type.SwapAnimationValue
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/controller/DrawController.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.controller.DrawController
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.controller.DrawController$1
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.controller.DrawController$ClickListener
+com/example/app/appcenter/autoimageslider/IndicatorView/draw/data/RtlMode.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.draw.data.RtlMode
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/controller/AnimationController.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.controller.AnimationController
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.controller.AnimationController$1
+com/example/app/appcenter/databinding/ListItemMoreAppsBinding.java
+ com.example.app.appcenter.databinding.ListItemMoreAppsBinding
+com/example/app/appcenter/autoimageslider/Transformations/HingeTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.HingeTransformation
+com/example/app/appcenter/autoimageslider/Transformations/SpinnerTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.SpinnerTransformation
+com/example/app/appcenter/databinding/DialogLayoutBackpressedBinding.java
+ com.example.app.appcenter.databinding.DialogLayoutBackpressedBinding
+com/example/app/appcenter/autoimageslider/IndicatorView/animation/type/AnimationType.java
+ com.example.app.appcenter.autoimageslider.IndicatorView.animation.type.AnimationType
+com/example/app/appcenter/databinding/LayoutWentWrongBinding.java
+ com.example.app.appcenter.databinding.LayoutWentWrongBinding
+com/example/app/appcenter/autoimageslider/Transformations/FidgetSpinTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.FidgetSpinTransformation
+com/example/app/appcenter/autoimageslider/Transformations/CubeOutDepthTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.CubeOutDepthTransformation
+com/example/app/appcenter/autoimageslider/Transformations/VerticalFlipTransformation.java
+ com.example.app.appcenter.autoimageslider.Transformations.VerticalFlipTransformation
