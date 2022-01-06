@@ -35,11 +35,12 @@
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:contentDescription="@string/app_name"
-                android:padding="@dimen/_12sdp"
-                android:src="@drawable/ic_share"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_app_center_share"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@android:color/white"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

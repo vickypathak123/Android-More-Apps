@@ -2547,7 +2547,8 @@ int drawable ic_ac_ad_text_banner 0x0
 int drawable ic_ac_horizontal 0x0
 int drawable ic_ac_lable 0x0
 int drawable ic_ac_vertical 0x0
-int drawable ic_back 0x0
+int drawable ic_app_center_back 0x0
+int drawable ic_app_center_share 0x0
 int drawable ic_clock_black_24dp 0x0
 int drawable ic_dowanload 0x0
 int drawable ic_error 0x0
@@ -2558,7 +2559,6 @@ int drawable ic_mtrl_chip_checked_black 0x0
 int drawable ic_mtrl_chip_checked_circle 0x0
 int drawable ic_mtrl_chip_close_circle 0x0
 int drawable ic_no_wifi 0x0
-int drawable ic_share 0x0
 int drawable material_cursor_drawable 0x0
 int drawable material_ic_calendar_black_24dp 0x0
 int drawable material_ic_clear_black_24dp 0x0

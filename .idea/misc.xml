@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.31979166666666664" />
         <entry key="appcenter/src/main/res/layout/activity_more_apps.xml" value="0.33697916666666666" />
+        <entry key="appcenter/src/main/res/layout/dialog_layout_backpressed.xml" value="0.25" />
         <entry key="appcenter/src/main/res/layout/layout_progress.xml" value="0.33697916666666666" />
       </map>
     </option>

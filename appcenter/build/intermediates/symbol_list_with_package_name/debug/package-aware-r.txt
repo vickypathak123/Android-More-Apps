@@ -2548,7 +2548,8 @@ drawable ic_ac_ad_text_banner
 drawable ic_ac_horizontal
 drawable ic_ac_lable
 drawable ic_ac_vertical
-drawable ic_back
+drawable ic_app_center_back
+drawable ic_app_center_share
 drawable ic_clock_black_24dp
 drawable ic_dowanload
 drawable ic_error
@@ -2559,7 +2560,6 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_no_wifi
-drawable ic_share
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp

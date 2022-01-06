@@ -76,12 +76,12 @@ drawable ic_ac_ad_text_banner
 drawable ic_ac_horizontal
 drawable ic_ac_lable
 drawable ic_ac_vertical
-drawable ic_back
+drawable ic_app_center_back
+drawable ic_app_center_share
 drawable ic_dowanload
 drawable ic_error
 drawable ic_label_ad
 drawable ic_no_wifi
-drawable ic_share
 drawable shape_category_selected
 drawable thumb_banner
 drawable thumb_small
