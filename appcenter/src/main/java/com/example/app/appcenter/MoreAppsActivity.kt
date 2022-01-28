@@ -290,6 +290,6 @@ class MoreAppsActivity : BaseBindingActivity<ActivityMoreAppsBinding>() {
     override fun onDestroy() {
         super.onDestroy()
         mJob.cancel()
-        Glide.with(applicationContext).pauseRequests()
+//        Glide.with(applicationContext).pauseRequests()
     }
 }

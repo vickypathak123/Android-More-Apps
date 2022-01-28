@@ -12,9 +12,20 @@
         android:text="Open More Apps"
         android:textAllCaps="false"
         android:onClick="onMoreAppClick"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/moreAppView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.app.appcenter.widgets.TopsMoreAppsView
+        android:id="@+id/moreAppView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:app_package_name="YOUR_PROJECT_PACKAGE_NAME"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:text_gravity="CENTER"
+        app:theme_color="@color/colorAccent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
