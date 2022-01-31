@@ -17,9 +17,9 @@ import java.util.concurrent.TimeUnit
 
 object APIBuilder {
 
-    val Context.getAuthorizationToken: String get() = this.getStringRes(R.string.authorization_url).getBaseUrl
+    val Context.getAuthorizationToken: String get() = this.getStringRes(R.string.mah_authorization_url).getBaseUrl
 
-    val Context.getMainBaseUrl: String get() = this.getStringRes(R.string.base_url_apps).getBaseUrl
+    val Context.getMainBaseUrl: String get() = this.getStringRes(R.string.mah_base_url_apps).getBaseUrl
     val Context.getMainClient: APIInterface get() = getMainClientBuilder.create(APIInterface::class.java)
 
     private val okHttpClient: OkHttpClient

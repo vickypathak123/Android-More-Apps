@@ -14,7 +14,7 @@
         android:layout_marginTop="@dimen/_2sdp"
         android:paddingStart="@dimen/_10sdp"
         android:paddingEnd="@dimen/_10sdp"
-        android:text="@string/label_more_apps"
+        android:text="@string/mah_label_more_apps"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:gravity="center"
-        android:text="@string/pkg_not_exist"
+        android:text="@string/mah_pkg_not_exist"
         android:textSize="@dimen/_14ssp"
         android:textColor="@color/text_empty"
         android:visibility="gone"

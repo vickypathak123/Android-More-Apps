@@ -72,7 +72,7 @@
                 android:layout_marginStart="@dimen/_7sdp"
                 android:layout_marginLeft="@dimen/_7sdp"
                 android:gravity="center"
-                android:text="@string/download"
+                android:text="@string/mah_download"
                 android:textAllCaps="true"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/_10sdp"

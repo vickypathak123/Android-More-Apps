@@ -21,7 +21,7 @@
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_10sdp"
-            android:contentDescription="@string/label_thumb"
+            android:contentDescription="@string/mah_label_thumb"
             android:src="@drawable/thumb_small"
             app:layout_constraintBottom_toTopOf="@+id/list_apps_tv_app_name"
             app:layout_constraintEnd_toEndOf="parent"

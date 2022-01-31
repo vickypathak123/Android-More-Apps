@@ -168,7 +168,7 @@ class MoreAppsActivity : BaseBindingActivity<ActivityMoreAppsBinding>() {
                 if (isOnline) {
                     initViewAction()
                 } else {
-                    Toast.short(mActivity, getStringRes(R.string.label_check_internet))
+                    Toast.short(mActivity, getStringRes(R.string.mah_label_check_internet))
                 }
             }
 
@@ -187,13 +187,13 @@ class MoreAppsActivity : BaseBindingActivity<ActivityMoreAppsBinding>() {
         saveAppCenterModel(fResponse)
 
         MainScope().launch(coroutineContext) {
-            Log.e(TAG, getStringRes(R.string.label_success))
+            Log.e(TAG, getStringRes(R.string.mah_label_success))
             mBinding.layoutNoInternet.layoutClNoInternet.gone
             mBinding.layoutWentWrong.layoutWentWrong.gone
             mBinding.layoutProgress.layoutProgressbar.gone
             mBinding.tvNoPackage.gone
 
-            if (fResponse.message == getStringRes(R.string.pkg_not_exist)) {
+            if (fResponse.message == getStringRes(R.string.mah_pkg_not_exist)) {
                 mBinding.tvNoPackage.visible
             } else {
 
@@ -219,7 +219,7 @@ class MoreAppsActivity : BaseBindingActivity<ActivityMoreAppsBinding>() {
     }
 
     private fun errorNoInternet() {
-        Log.i(TAG, getStringRes(R.string.label_offline))
+        Log.i(TAG, getStringRes(R.string.mah_label_offline))
         MainScope().launch(coroutineContext) {
             mBinding.layoutNoInternet.layoutClNoInternet.visible
             mBinding.layoutWentWrong.layoutWentWrong.gone

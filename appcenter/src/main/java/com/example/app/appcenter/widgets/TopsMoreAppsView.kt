@@ -35,7 +35,7 @@ class TopsMoreAppsView : ConstraintLayout, CoroutineScope, View.OnClickListener 
 
     private var mTextGravity: TextGravity = TextGravity.CENTER
 
-    private var mTitleText: String = context.getStringRes(R.string.label_more_apps)
+    private var mTitleText: String = context.getStringRes(R.string.mah_label_more_apps)
 
     private var mJob: Job = Job()
 
@@ -191,7 +191,7 @@ class TopsMoreAppsView : ConstraintLayout, CoroutineScope, View.OnClickListener 
                 if (context.isOnline) {
                     initViewAction()
                 } else {
-                    Toast.short(context, context.getStringRes(R.string.label_check_internet))
+                    Toast.short(context, context.getStringRes(R.string.mah_label_check_internet))
                 }
             }
         }
@@ -202,7 +202,7 @@ class TopsMoreAppsView : ConstraintLayout, CoroutineScope, View.OnClickListener 
         context.saveAppCenterModel(fResponse)
 
         MainScope().launch(coroutineContext) {
-            Log.e(TAG, context.getStringRes(R.string.label_success))
+            Log.e(TAG, context.getStringRes(R.string.mah_label_success))
             mBinding.layoutNoInternet.layoutClNoInternet.gone
             mBinding.layoutWentWrong.layoutWentWrong.gone
             mBinding.layoutProgress.layoutProgressbar.gone
@@ -210,7 +210,7 @@ class TopsMoreAppsView : ConstraintLayout, CoroutineScope, View.OnClickListener 
             mBinding.clContainer.visible
             mBinding.maRvMoreApps.gone
 
-            if (fResponse.message == context.getStringRes(R.string.pkg_not_exist)) {
+            if (fResponse.message == context.getStringRes(R.string.mah_pkg_not_exist)) {
                 mBinding.clContainer.gone
                 mBinding.tvNoPackage.visible
             } else {
@@ -229,7 +229,7 @@ class TopsMoreAppsView : ConstraintLayout, CoroutineScope, View.OnClickListener 
     }
 
     private fun errorNoInternet() {
-        Log.i(TAG, context.getStringRes(R.string.label_offline))
+        Log.i(TAG, context.getStringRes(R.string.mah_label_offline))
         MainScope().launch(coroutineContext) {
             mBinding.layoutNoInternet.layoutClNoInternet.visible
             mBinding.layoutWentWrong.layoutWentWrong.gone
