@@ -1,6 +1,7 @@
 # Android-More-Apps
 Android Ads code that is required in every app of Vasundhara Infotech [Vasundhara Infotech LLP](https://vasundharainfotechllp.com)
 
+[![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
 ###### latest_build_version [![](https://jitpack.io/v/vickypathak123/Android-More-Apps.svg)](https://jitpack.io/#vickypathak123/Android-More-Apps)
 
 ## Using `build.gradle`
