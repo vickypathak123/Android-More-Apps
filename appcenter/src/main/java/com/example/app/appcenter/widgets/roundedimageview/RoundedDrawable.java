@@ -268,9 +268,7 @@ public class RoundedDrawable extends Drawable {
   @Override
   protected void onBoundsChange(@NonNull Rect bounds) {
     super.onBoundsChange(bounds);
-
     mBounds.set(bounds);
-
     updateShaderMatrix();
   }
 

@@ -98,4 +98,5 @@ class Request(private val mContext: Activity) : Serializable {
         mContext.startActivity(moreAppIntent)
     }
     //</editor-fold>
+
 }

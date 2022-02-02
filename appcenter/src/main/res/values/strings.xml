@@ -4,9 +4,9 @@
     <string name="mah_label_offline">Offline</string>
     <string name="mah_label_success">Success</string>
     <string name="mah_label_check_internet">Please check your internet connection and try again</string>
-    <string name="mah_label_went_wrong">Something went wrong, Pleas try again later</string>
+    <string name="mah_label_went_wrong">Something went wrong, Please try again later</string>
     <string name="mah_more_apps">More Apps</string>
-    <string name="mah_label_thumb">thumb</string>
+    <string name="mah_label_thumb">Thumb</string>
     <string name="mah_download">Download</string>
     <string name="mah_label_installs">1,00,000-5,00,000</string>
     <string name="mah_label_recommended_apps">Recommended Apps</string>
@@ -27,7 +27,6 @@
     <!-- Domine url-->
     <string name="mah_base_url_apps">aHR0cHM6Ly9hcnR3b3JrLnZhc3VuZGhhcmFhcHBzLmNvbS9hcnR3b3JrX2NhY2hlL2FwaS9BZHZlcnRpc2VOZXdBcHBsaWNhdGlvbnMvMTcv</string>
 
-
     <!-- Force Update -->
     <string name="mah_update_required">Update Required</string>
     <string name="mah_update_message">We\'ve noticed that you\'ve been using the deprecated application version for a long time. Please update to the latest version and enjoy the app.</string>
@@ -35,9 +34,10 @@
     <string name="mah_update_negative">Dismiss</string>
     <string name="mah_pkg_not_exist">This package not available in application list</string>
 
+
     <!-- Feedback -->
     <string name="mah_feedback">Feedback</string>
-    <string name="mah_describe_your_problem">Please describe your problem detail</string>
+    <string name="mah_describe_your_problem">Please describe your problem details</string>
     <string name="mah_enter_your_issue_details">Enter your issue details</string>
     <string name="mah_upload_image">Please upload an image</string>
     <string name="mah_enter_email">Please enter your email or phone number</string>

@@ -228,6 +228,7 @@ class MoreAppsActivity : BaseBindingActivity<ActivityMoreAppsBinding>() {
     }
     //</editor-fold>
 
+
     //<editor-fold desc="Set Main UI">
     private fun setupViewPager(fResponse: MoreAppMainModel) {
         val adapter = ViewPagerAdapter(supportFragmentManager)
