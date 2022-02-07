@@ -150,7 +150,16 @@ class TopsMoreAppsView : ConstraintLayout, CoroutineScope, View.OnClickListener 
 
                             override fun onSuccess(fResponse: MoreAppMainModel) {
                                 Log.e(TAG, "onSuccess: response::$fResponse")
-                                successOnFetchData(fResponse = fResponse)
+                                Log.e(TAG, "onSuccess: response.status::${fResponse.isSuccess}")
+                                if (fResponse.isSuccess) {
+                                    successOnFetchData(fResponse = fResponse)
+                                } else {
+                                    if (fResponse.message == context.getStringRes(R.string.mah_pkg_not_exist)) {
+                                        errorNoPackage()
+                                    } else {
+                                        errorOnFetchData()
+                                    }
+                                }
                             }
 
                             override fun onError(fErrorMessage: String?) {
@@ -208,15 +217,9 @@ class TopsMoreAppsView : ConstraintLayout, CoroutineScope, View.OnClickListener 
             mBinding.layoutProgress.layoutProgressbar.gone
             mBinding.tvNoPackage.gone
             mBinding.clContainer.visible
-            mBinding.maRvMoreApps.gone
 
-            if (fResponse.message == context.getStringRes(R.string.mah_pkg_not_exist)) {
-                mBinding.clContainer.gone
-                mBinding.tvNoPackage.visible
-            } else {
-                mBinding.maRvMoreApps.visible
-                mBinding.maRvMoreApps.adapter = MoreAppsAdapter(context, fResponse.data)
-            }
+            mBinding.maRvMoreApps.visible
+            mBinding.maRvMoreApps.adapter = MoreAppsAdapter(context, fResponse.data)
         }
     }
 
@@ -234,6 +237,15 @@ class TopsMoreAppsView : ConstraintLayout, CoroutineScope, View.OnClickListener 
             mBinding.layoutNoInternet.layoutClNoInternet.visible
             mBinding.layoutWentWrong.layoutWentWrong.gone
             mBinding.layoutProgress.layoutProgressbar.gone
+        }
+    }
+
+    private fun errorNoPackage() {
+        MainScope().launch(coroutineContext) {
+            mBinding.layoutNoInternet.layoutClNoInternet.gone
+            mBinding.layoutWentWrong.layoutWentWrong.gone
+            mBinding.layoutProgress.layoutProgressbar.gone
+            mBinding.tvNoPackage.visible
         }
     }
     //</editor-fold>

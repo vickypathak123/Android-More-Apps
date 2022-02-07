@@ -10,7 +10,7 @@ import com.example.app.appcenter.R
 import com.example.app.appcenter.themeColor
 import com.example.app.base.helper.utils.getDrawableRes
 
-var PKG_NAME = "com.latest.status.message.text.jokes.funny.test" // com.latest.status.message.text.jokes.funny
+internal var PKG_NAME = "YOUR_PROJECT_PACKAGE_NAME"
 
 @kotlin.jvm.JvmField
 var isMoreAppsClick = false

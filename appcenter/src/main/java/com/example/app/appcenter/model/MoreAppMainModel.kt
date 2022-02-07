@@ -33,11 +33,15 @@ data class MoreAppMainModel(
     val nativeAdd: NativeAdd,
     @SerializedName("status")
     @Expose
-    val status: Int,
+    private val status: Int,
     @SerializedName("translator_ads_id")
     @Expose
     val translatorAdsId: TranslatorAdsId
-) : Parcelable
+) : Parcelable {
+    val isSuccess: Boolean get() {
+        return (status == 1)
+    }
+}
 
 @Keep
 @Parcelize

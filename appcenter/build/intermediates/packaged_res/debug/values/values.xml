@@ -12,7 +12,7 @@
     <string name="mah_base_url_apps">aHR0cHM6Ly9hcnR3b3JrLnZhc3VuZGhhcmFhcHBzLmNvbS9hcnR3b3JrX2NhY2hlL2FwaS9BZHZlcnRpc2VOZXdBcHBsaWNhdGlvbnMvMTcv</string>
     <string name="mah_contact_information">Your contact information help us to reach you</string>
     <string name="mah_daily_3_apps">Daily 3 Apps</string>
-    <string name="mah_describe_your_problem">Please describe your problem detail</string>
+    <string name="mah_describe_your_problem">Please describe your problem details</string>
     <string name="mah_download">Download</string>
     <string name="mah_email_id">jay.vasundhara@gmail.com</string>
     <string name="mah_enter_email">Please enter your email or phone number</string>
@@ -28,8 +28,8 @@
     <string name="mah_label_recommended_apps">Recommended Apps</string>
     <string name="mah_label_retry">Retry</string>
     <string name="mah_label_success">Success</string>
-    <string name="mah_label_thumb">thumb</string>
-    <string name="mah_label_went_wrong">Something went wrong, Pleas try again later</string>
+    <string name="mah_label_thumb">Thumb</string>
+    <string name="mah_label_went_wrong">Something went wrong, Please try again later</string>
     <string name="mah_more_apps">More Apps</string>
     <string name="mah_pkg_not_exist">This package not available in application list</string>
     <string name="mah_remove_ads">Ads remove successfully from app. Enjoy the app without any interference.</string>

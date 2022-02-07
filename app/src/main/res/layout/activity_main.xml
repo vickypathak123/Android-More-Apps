@@ -27,5 +27,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:text_gravity="CENTER"
         app:theme_color="@color/colorAccent" />
+<!--        app:app_package_name="com.latest.status.message.text.jokes.funny"-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

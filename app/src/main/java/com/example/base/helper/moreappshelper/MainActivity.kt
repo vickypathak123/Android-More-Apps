@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     fun onMoreAppClick(view: android.view.View) {
         MoreApps.with(this@MainActivity)
-            .setAppPackageName("com.vehicle.rto.vahan.status.information.register")
+            .setAppPackageName("YOUR_PROJECT_PACKAGE_NAME")
             .setTextColor(Color.BLUE)
             .setThemeColor(Color.RED)
             .setShareIcon(R.drawable.ic_share_blue)

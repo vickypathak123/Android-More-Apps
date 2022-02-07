@@ -36,7 +36,7 @@ object MoreApps {
 @Suppress("unused")
 class Request(private val mContext: Activity) : Serializable {
 
-    private var mAppPackageName: String = ""
+    private var mAppPackageName: String? = null
     private var mShareMsg: String = ""
     private var mThemeColor: Int = 0
     private var mTextColor: Int = 0
