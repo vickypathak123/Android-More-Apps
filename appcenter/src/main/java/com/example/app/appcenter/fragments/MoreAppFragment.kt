@@ -75,8 +75,10 @@ class MoreAppFragment : BaseBindingFragment<FragmentMoreAppBinding>() {
             getTop3Apps(),
             object : TopThreeAppsAdapter.OnPostExecute {
                 override fun iconHeight(height: Int) {
-                    val otherApps = OtherAppsAdapter(mContext, getOtherApps(), height)
-                    mBinding.moreRvApps.adapter = otherApps
+                    if (isAdded && activity != null) {
+                        val otherApps = OtherAppsAdapter(mContext, getOtherApps(), height)
+                        mBinding.moreRvApps.adapter = otherApps
+                    }
                 }
             })
 

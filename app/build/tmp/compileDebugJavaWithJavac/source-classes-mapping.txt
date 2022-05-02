@@ -1,4 +1,0 @@
-com/example/base/helper/moreappshelper/BuildConfig.java
- com.example.base.helper.moreappshelper.BuildConfig
-com/example/base/helper/moreappshelper/databinding/ActivityMainBinding.java
- com.example.base.helper.moreappshelper.databinding.ActivityMainBinding
